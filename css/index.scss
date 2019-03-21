@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import "common/page";
+.page{
+  .header-top{
+    background-color:rgba(245,245,245,1);
+  }
+  .header{
+    text-align: center;
+    background-color:rgba(245,245,245,1);
+    @include lineHeight(0);
+    .search{
+      @include height(28);
+      @include lineHeight(28);
+      position: relative;
+      @include top(8);
+      display: inline-block;
+      font-size: 0;
+      >*{
+        vertical-align: middle;
+        display: inline-block;
+      }
+      .input-box{
+        position: relative;
+        .input{
+          @include height(28);
+
+          background:rgba(255,255,255,1);
+          @include borderRadios(16);
+          @include width(275);
+          @include resetInput();
+          @include paddingLeft(37);
+          @include fontSize(16);
+          @include paddingRight(28);
+        }
+        .icon-search{
+          position: absolute;
+          @include width(14);
+          @include height(14);
+          @include left(16);
+          @include top(7);
+          @include back();
+          @include backImg("search.png");
+        }
+        .icon-close{
+          @include back();
+          @include width(16);
+          @include height(16);
+          @include right(12);
+          @include top(6);
+          position: absolute;
+          @include backImg("close.png");
+          display: none;
+        }
+      }
+      .cancel{
+       @include height(22);
+        @include lineHeight(22);
+        @include fontSize(16);
+        color:rgba(17,132,209,1);
+        @include marginLeft(16);
+        display: none;
+      }
+    }
+  }
+  //线路导航
+  .header-bottom{
+    @include headerNav();
+    overflow-x: scroll;
+    background-color:rgba(245,245,245,1);
+  }
+  //内容
+  .content{
+    position: absolute;
+    left: 0;
+    @include top(116);
+    bottom: 0;
+
+  overflow: hidden;
+
+    width: 100%;
+    .con-item{
+      position: relative;
+      .line{
+        background:rgba(34,42,140,1);
+        @include borderRadios(6);
+        position: absolute;
+        @include left(24);
+        @include top(16);
+        @include bottom(16);
+        @include width(12);
+      }
+    }
+    .list{
+      position: relative;
+      .item{
+        font-size: 0;
+        >*{
+          display: inline-block;
+          vertical-align: middle;
+        }
+        .left{
+          @include width(60);
+          text-align: center;
+          @include lineHeight(44);
+          @include height(44);
+          .radio{
+            @include width(8);
+            @include height(8);
+            display: inline-block;
+            border-radius: 100%;
+            background:rgba(255,255,255,1);
+          }
+        }
+        .right{
+          font-size: 0;
+          @include height(44);
+          @include width(315);
+          @include lineHeight(0);
+          border-bottom: 1px solid  rgba(0,0,0,0.12);
+          >*{
+            vertical-align: top;
+            display: inline-block;
+          }
+          .txt{
+           @include fontSize(16);
+            font-weight:400;
+            color:rgba(56,58,61,1);
+            display: inline-block;
+            @include lineHeight(22);
+
+            position: relative;
+            @include top(11);
+
+          }
+          .icon{
+            @include width(24);
+            @include height(24);
+            @include top(10);
+            @include marginLeft(6);
+            position: relative;
+      //      background-color: #cccccc;
+            @include back();
+            &.i1{
+              @include backImg("change-img-1.png");
+            }
+            &.i2{
+              @include backImg("change-img-2.png");
+            }
+            &.i3{
+              @include backImg("change-img-3.png");
+            }
+            &.i4{
+              @include backImg("change-img-4.png");
+            }
+          }
+          .child-right{
+            float: right;
+            font-size: 0;
+            @include marginRight(16);
+            @include marginTop(10);
+            .icon-r{
+              vertical-align: middle;
+              @include width(24);
+              @include height(24);
+              @include back();
+              display: inline-block;
+              //background-color: #cccccc;
+              @include marginRight(7);
+              &.i1{
+                @include backImg("equipment-img-1.png");
+              }
+              &.i2{
+                @include backImg("equipment-img-2.png");
+              }
+              &.i3{
+                @include backImg("equipment-img-3.png");
+              }
+              &.i4{
+                @include backImg("equipment-img-4.png");
+              }
+
+              &.i5{
+                @include backImg("equipment-img-5.png");
+              }
+              &.i6{
+                @include backImg("equipment-img-6.png");
+              }
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+            @include numIcon();
+          }
+        }
+      }
+    }
+  }
+  //搜索历史
+  .history-search{
+    @include top(64);
+    position: absolute;
+    bottom: 0;
+    overflow: auto;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    display: none;
+    .history-title{
+      @include fontSize(14);
+      font-weight:400;
+      color:rgba(176,179,184,1);
+      @include lineHeight(20);
+      @include marginTop(10);
+      @include marginBottom(4);
+      @include marginLeft(16);
+
+    }
+    .list{
+      .item{
+        @include width(359);
+        @include marginLeft(16);
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        @include height(44);
+        @include lineHeight(0);
+        .left{
+          display: inline-block;
+          @include fontSize(16);
+          font-weight:400;
+          color:rgba(56,58,61,1);
+          @include lineHeight(22);
+          position: relative;
+          @include top(11);
+        }
+        .right{
+          float: right;
+          @include marginRight(16);
+          @include marginTop(10);
+          font-size: 0;
+          @include numIcon();
+          .num-icon{
+            @include marginRight(4);
+            &:last-child{
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    &.active{
+      .history-title{
+        display: none;
+      }
+    }
+  }
+  &.active{
+    .history-search{
+      display: inline-block;
+    }
+    .header{
+      text-align: left;
+      .back{
+        display: none;
+      }
+      .search{
+        .input-box{
+          @include marginLeft(16);
+          .input{
+            @include width(295);
+          }
+        }
+        .cancel{
+          display: inline-block;
+        }
+        .icon-close{
+          display: none;
+          &.show{
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
+.swiper-slide{
+  overflow: auto;
+}

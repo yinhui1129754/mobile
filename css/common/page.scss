@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import "common";
+$header_height:64;
+$header_ptop:20;
+.page{
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include width($size);
+  height: 100%;
+  overflow: auto;
+  //为了防止不是全屏所以这里做了一个预留方便修改
+  .header-top{
+    @include height(20);
+    @include width($size);
+
+  }
+  .header{
+    @include height(44);
+    @include lineHeight(44);
+    position: relative;
+    .back{
+      position: absolute;
+      @include width(16);
+      @include height(16);
+      @include backImg("back.png");
+
+      @include left(12);
+      @include top(14);
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      &.c2{
+        @include backImg("back2.png");
+      }
+    }
+  }
+}
+@mixin numIcon(){
+  .num-icon{
+    @include width(24);
+    @include height(24);
+    @include borderRadios(12);
+    color: white;
+    @include lineHeight(24);
+    text-align: center;
+    @include fontSize(16);
+    color:rgba(255,255,255,1);
+    display: inline-block;
+    vertical-align: middle;
+
+    &.c1{
+      background-color: #270b86;
+    }
+    &.c2{
+      background-color: #f3503f;
+    }
+    &.c3{
+      background-color: #c30164;
+    }
+    &.c4{
+      background-color: #2ea959;
+    }
+    &.c5{
+      background-color: #ab27b1;
+    }
+    &.c6{
+      background-color: #ab6834;
+    }
+    &.c7{
+      background-color: #6eccd8;
+    }
+    &.c8{
+      background-color: #9abd07;
+    }
+    &.c9{
+      background-color: #e2a50f;
+    }
+    &.c10{
+      background-color: #0a46b6;
+    }
+  }
+}
+@mixin headerNav(){
+  @include width($size);
+  @include height(52);
+
+  .child{
+    white-space: nowrap;
+    @include height(25);
+    @include lineHeight(0);
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+    @include top(14);
+    .item{
+      display: inline-block;
+      position: relative;
+      z-index: 10;
+
+      @include height(25);
+      vertical-align: middle;
+      @include lineHeight(25);
+      @include fontSize(18);
+      color:rgba(108,113,122,1);
+      font-weight:500;
+
+      @include marginLeft(16);
+      &:first-child{
+        @include marginLeft(20);
+      }
+
+    }
+
+    &.active{
+      span{
+        color:rgba(56,58,61,1);
+      }
+    }
+    .bar{
+      display: block;
+      position: absolute;
+z-index: 1;
+      width: 100%;
+      @include height(6);
+      @include backLinearGradient(linear-gradient(135deg,rgba(17,132,209,1) 0%,rgba(0,180,245,1) 100%));
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
+@mixin checked(){
+  .input-checked{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+  }
+  .input-checked [type="checkbox"]{
+    display: none;
+  }
+  .input-checked .views{
+    display: inline-block;
+    @include width(20);
+
+    @include height(20);
+    border:1px solid rgba(0,0,0,0.12);
+    position: relative;
+    border-radius: 100%;
+  }
+  .input-checked [type="checkbox"]:checked + .views:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 50%;
+    border-radius: 100%;
+    top: 50%;
+    @include width(10);
+    @include height(10);
+    @include transform(translate(-50%,-50%));
+    background-color: #49cc1d;
+  }
+}
+.layui-m-layerchild{
+  background-color: transparent;
+}
+.layer-select-user{
+  @include width($size);
+  .list{
+    @include width($size);
+    .item{
+      @include width($size);
+      @include height(50);
+      background-color: white;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      @include fontSize(18);
+      font-weight:400;
+      color:rgba(56,58,61,1);
+      @include lineHeight(25);
+      text-align: center;
+      @include paddingTop(13);
+      box-sizing: border-box;
+      &:last-child{
+        border: none;
+      }
+    }
+
+  }
+  .btn{
+    @include width($size);
+    @include height(50);
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    @include fontSize(18);
+    font-weight:400;
+    color:rgba(56,58,61,1);
+    @include lineHeight(25);
+    text-align: center;
+    @include paddingTop(13);
+    box-sizing: border-box;
+    @include marginTop(10);
+  }
+}
+.layui-m-layercont{
+  background-color: white;
+}

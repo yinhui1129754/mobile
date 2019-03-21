@@ -1,0 +1,83 @@
+{
+	"stationName": "双流机场2航站楼",
+	"deviceInfo": [
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"roads": "机场东三路|机场南二路|机场东二路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 1
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " C ",
+			"roads": "机场东二路|机场南二路|机场东三路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 1
+		}
+	],
+	"busInfo": [
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "T2航站楼(公交站)",
+			"busStationDistance": 87.0,
+			"busLine": "机场专线1号线;机场专线2号线;机场专线4号线;机场专线5号线;机场巴士什邡线"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "双流国际机场(T2航站楼)(公交站)",
+			"busStationDistance": 83.0,
+			"busLine": "机场专线5号线"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "双流国际机场T2航站楼(公交站)",
+			"busStationDistance": 38.0,
+			"busLine": "机场专线3号线"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "双流国际机场站(T2航站楼)(公交站)",
+			"busStationDistance": 75.0,
+			"busLine": "315路"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "机场地面服务公司站(公交站)",
+			"busStationDistance": 451.0,
+			"busLine": "804路"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " B ",
+			"busStationName": "机场地面服务有限公司站(公交站)",
+			"busStationDistance": 456.0,
+			"busLine": "804路;826路"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " C ",
+			"busStationName": "双流机场站(公交站)",
+			"busStationDistance": 420.0,
+			"busLine": "804路;826路"
+		},
+		{
+			"stationName": "双流机场2航站楼",
+			"gate": " C ",
+			"busStationName": "成都双流国际机场(公交站)",
+			"busStationDistance": 216.0,
+			"busLine": "机场专线7号线;机场大巴邛崃线"
+		}
+	]
+}

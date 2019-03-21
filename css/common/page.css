@@ -1,0 +1,88 @@
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  width: 10rem;
+  height: 100%;
+  overflow: auto; }
+  .page .header-top {
+    height: 5.3333333333vw;
+    height: 0.5333333333rem;
+    width: 100vw;
+    width: 10rem; }
+  .page .header {
+    height: 11.7333333333vw;
+    height: 1.1733333333rem;
+    line-height: 11.7333333333vw;
+    line-height: 1.1733333333rem;
+    position: relative; }
+    .page .header .back {
+      position: absolute;
+      width: 4.2666666667vw;
+      width: 0.4266666667rem;
+      height: 4.2666666667vw;
+      height: 0.4266666667rem;
+      background-image: url("icon/back.png");
+      left: 3.2vw;
+      left: 0.32rem;
+      top: 3.7333333333vw;
+      top: 0.3733333333rem;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+      .page .header .back.c2 {
+        background-image: url("icon/back2.png"); }
+
+.layui-m-layerchild {
+  background-color: transparent; }
+
+.layer-select-user {
+  width: 100vw;
+  width: 10rem; }
+  .layer-select-user .list {
+    width: 100vw;
+    width: 10rem; }
+    .layer-select-user .list .item {
+      width: 100vw;
+      width: 10rem;
+      height: 13.3333333333vw;
+      height: 1.3333333333rem;
+      background-color: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 4.8vw;
+      font-size: 0.48rem;
+      font-weight: 400;
+      color: #383a3d;
+      line-height: 6.6666666667vw;
+      line-height: 0.6666666667rem;
+      text-align: center;
+      padding-top: 3.4666666667vw;
+      padding-top: 0.3466666667rem;
+      box-sizing: border-box; }
+      .layer-select-user .list .item:last-child {
+        border: none; }
+  .layer-select-user .btn {
+    width: 100vw;
+    width: 10rem;
+    height: 13.3333333333vw;
+    height: 1.3333333333rem;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 4.8vw;
+    font-size: 0.48rem;
+    font-weight: 400;
+    color: #383a3d;
+    line-height: 6.6666666667vw;
+    line-height: 0.6666666667rem;
+    text-align: center;
+    padding-top: 3.4666666667vw;
+    padding-top: 0.3466666667rem;
+    box-sizing: border-box;
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem; }
+
+.layui-m-layercont {
+  background-color: white; }
+
+/*# sourceMappingURL=page.css.map */

@@ -1,0 +1,1010 @@
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  width: 10rem;
+  height: 100%;
+  overflow: auto; }
+  .page .header-top {
+    height: 5.3333333333vw;
+    height: 0.5333333333rem;
+    width: 100vw;
+    width: 10rem; }
+  .page .header {
+    height: 11.7333333333vw;
+    height: 1.1733333333rem;
+    line-height: 11.7333333333vw;
+    line-height: 1.1733333333rem;
+    position: relative; }
+    .page .header .back {
+      position: absolute;
+      width: 4.2666666667vw;
+      width: 0.4266666667rem;
+      height: 4.2666666667vw;
+      height: 0.4266666667rem;
+      background-image: url("icon/back.png");
+      left: 3.2vw;
+      left: 0.32rem;
+      top: 3.7333333333vw;
+      top: 0.3733333333rem;
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+      .page .header .back.c2 {
+        background-image: url("icon/back2.png"); }
+
+.layui-m-layerchild {
+  background-color: transparent; }
+
+.layer-select-user {
+  width: 100vw;
+  width: 10rem; }
+  .layer-select-user .list {
+    width: 100vw;
+    width: 10rem; }
+    .layer-select-user .list .item {
+      width: 100vw;
+      width: 10rem;
+      height: 13.3333333333vw;
+      height: 1.3333333333rem;
+      background-color: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 4.8vw;
+      font-size: 0.48rem;
+      font-weight: 400;
+      color: #383a3d;
+      line-height: 6.6666666667vw;
+      line-height: 0.6666666667rem;
+      text-align: center;
+      padding-top: 3.4666666667vw;
+      padding-top: 0.3466666667rem;
+      box-sizing: border-box; }
+      .layer-select-user .list .item:last-child {
+        border: none; }
+  .layer-select-user .btn {
+    width: 100vw;
+    width: 10rem;
+    height: 13.3333333333vw;
+    height: 1.3333333333rem;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 4.8vw;
+    font-size: 0.48rem;
+    font-weight: 400;
+    color: #383a3d;
+    line-height: 6.6666666667vw;
+    line-height: 0.6666666667rem;
+    text-align: center;
+    padding-top: 3.4666666667vw;
+    padding-top: 0.3466666667rem;
+    box-sizing: border-box;
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem; }
+
+.layui-m-layercont {
+  background-color: white; }
+
+html, body {
+  overflow: hidden !important; }
+
+.page .header-box {
+  width: 100vw;
+  width: 10rem;
+  height: 56.2666666667vw;
+  height: 5.6266666667rem;
+  position: relative; }
+  .page .header-box .img-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+    .page .header-box .img-box .img {
+      width: 100%;
+      height: auto; }
+.page .content-top {
+  height: 16vw;
+  height: 1.6rem;
+  line-height: 16vw;
+  line-height: 1.6rem;
+  background: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 1.0666666667vw;
+  border-radius: 0.1066666667rem;
+  width: 91.4666666667vw;
+  width: 9.1466666667rem;
+  left: 4.2666666667vw;
+  left: 0.4266666667rem;
+  position: absolute;
+  bottom: -8vw;
+  bottom: -0.8rem;
+  font-size: 0; }
+  .page .content-top .txt {
+    margin-left: 4.2666666667vw;
+    margin-left: 0.4266666667rem;
+    font-size: 5.3333333333vw;
+    font-size: 0.5333333333rem;
+    font-weight: 500;
+    color: #383a3d;
+    line-height: 7.4666666667vw;
+    line-height: 0.7466666667rem;
+    vertical-align: middle; }
+  .page .content-top .num-icon {
+    width: 6.4vw;
+    width: 0.64rem;
+    height: 6.4vw;
+    height: 0.64rem;
+    border-radius: 3.2vw;
+    border-radius: 0.32rem;
+    color: white;
+    line-height: 6.4vw;
+    line-height: 0.64rem;
+    text-align: center;
+    font-size: 4.2666666667vw;
+    font-size: 0.4266666667rem;
+    color: white;
+    display: inline-block;
+    vertical-align: middle; }
+    .page .content-top .num-icon.c1 {
+      background-color: #270b86; }
+    .page .content-top .num-icon.c2 {
+      background-color: #f3503f; }
+    .page .content-top .num-icon.c3 {
+      background-color: #c30164; }
+    .page .content-top .num-icon.c4 {
+      background-color: #2ea959; }
+    .page .content-top .num-icon.c5 {
+      background-color: #ab27b1; }
+    .page .content-top .num-icon.c6 {
+      background-color: #ab6834; }
+    .page .content-top .num-icon.c7 {
+      background-color: #6eccd8; }
+    .page .content-top .num-icon.c8 {
+      background-color: #9abd07; }
+    .page .content-top .num-icon.c9 {
+      background-color: #e2a50f; }
+    .page .content-top .num-icon.c10 {
+      background-color: #0a46b6; }
+  .page .content-top .num-icon {
+    margin-left: 1.0666666667vw;
+    margin-left: 0.1066666667rem; }
+  .page .content-top .m1 {
+    margin-left: 3.2vw;
+    margin-left: 0.32rem; }
+.page .content {
+  background-color: #F5F5F5; }
+  .page .content .model-1 {
+    background-color: white;
+    padding-top: 10.6666666667vw;
+    padding-top: 1.0666666667rem;
+    padding-bottom: 5.3333333333vw;
+    padding-bottom: 0.5333333333rem; }
+    .page .content .model-1 .header-nav {
+      width: 100vw;
+      width: 10rem;
+      height: 13.8666666667vw;
+      height: 1.3866666667rem; }
+      .page .content .model-1 .header-nav .child {
+        white-space: nowrap;
+        height: 6.6666666667vw;
+        height: 0.6666666667rem;
+        line-height: 0vw;
+        line-height: 0rem;
+        font-size: 0;
+        display: inline-block;
+        position: relative;
+        top: 3.7333333333vw;
+        top: 0.3733333333rem; }
+        .page .content .model-1 .header-nav .child .item {
+          display: inline-block;
+          position: relative;
+          z-index: 10;
+          height: 6.6666666667vw;
+          height: 0.6666666667rem;
+          vertical-align: middle;
+          line-height: 6.6666666667vw;
+          line-height: 0.6666666667rem;
+          font-size: 4.8vw;
+          font-size: 0.48rem;
+          color: #6c717a;
+          font-weight: 500;
+          margin-left: 4.2666666667vw;
+          margin-left: 0.4266666667rem; }
+          .page .content .model-1 .header-nav .child .item:first-child {
+            margin-left: 5.3333333333vw;
+            margin-left: 0.5333333333rem; }
+        .page .content .model-1 .header-nav .child.active span {
+          color: #383a3d; }
+        .page .content .model-1 .header-nav .child .bar {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+          height: 1.6vw;
+          height: 0.16rem;
+          background-image: -webkit- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -moz- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -ms- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -o- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          left: 0;
+          bottom: 0; }
+    .page .content .model-1 .time-box {
+      width: 91.4666666667vw;
+      width: 9.1466666667rem;
+      height: 28.5333333333vw;
+      height: 2.8533333333rem;
+      background-color: whitesmoke;
+      border-radius: 1.0666666667vw;
+      border-radius: 0.1066666667rem;
+      margin-left: 4.2666666667vw;
+      margin-left: 0.4266666667rem;
+      margin-top: 2.6666666667vw;
+      margin-top: 0.2666666667rem;
+      padding-left: 4.2666666667vw;
+      padding-left: 0.4266666667rem;
+      padding-right: 4.2666666667vw;
+      padding-right: 0.4266666667rem; }
+      .page .content .model-1 .time-box .title-1 {
+        overflow: hidden; }
+        .page .content .model-1 .time-box .title-1 .left {
+          float: left;
+          font-size: 4.2666666667vw;
+          font-size: 0.4266666667rem;
+          font-weight: 500;
+          color: #383a3d;
+          line-height: 5.8666666667vw;
+          line-height: 0.5866666667rem;
+          margin-top: 3.2vw;
+          margin-top: 0.32rem; }
+        .page .content .model-1 .time-box .title-1 .right {
+          float: right;
+          font-size: 3.4666666667vw;
+          font-size: 0.3466666667rem;
+          font-weight: 400;
+          color: #383a3d;
+          line-height: 4.8vw;
+          line-height: 0.48rem;
+          margin-top: 3.2vw;
+          margin-top: 0.32rem; }
+      .page .content .model-1 .time-box .title-2 {
+        overflow: hidden; }
+        .page .content .model-1 .time-box .title-2 .left {
+          margin-top: 2.1333333333vw;
+          margin-top: 0.2133333333rem;
+          float: left;
+          font-size: 3.4666666667vw;
+          font-size: 0.3466666667rem;
+          font-weight: 400;
+          color: #5d677a;
+          line-height: 4.8vw;
+          line-height: 0.48rem; }
+        .page .content .model-1 .time-box .title-2 .right {
+          float: right;
+          margin-top: 1.0666666667vw;
+          margin-top: 0.1066666667rem; }
+          .page .content .model-1 .time-box .title-2 .right .txt1 {
+            font-size: 8.5333333333vw;
+            font-size: 0.8533333333rem;
+            font-weight: bold;
+            color: #1184d1;
+            line-height: 9.8666666667vw;
+            line-height: 0.9866666667rem;
+            vertical-align: baseline; }
+          .page .content .model-1 .time-box .title-2 .right .txt2 {
+            font-size: 3.4666666667vw;
+            font-size: 0.3466666667rem;
+            font-weight: 400;
+            color: #1184d1;
+            line-height: 4.8vw;
+            line-height: 0.48rem;
+            vertical-align: baseline; }
+      .page .content .model-1 .time-box .title-3 {
+        overflow: hidden; }
+        .page .content .model-1 .time-box .title-3 .left {
+          margin-top: 2.1333333333vw;
+          margin-top: 0.2133333333rem;
+          float: left;
+          font-size: 3.4666666667vw;
+          font-size: 0.3466666667rem;
+          font-weight: 400;
+          color: #5d677a;
+          line-height: 4.8vw;
+          line-height: 0.48rem; }
+        .page .content .model-1 .time-box .title-3 .right {
+          float: right;
+          margin-top: 2.1333333333vw;
+          margin-top: 0.2133333333rem; }
+          .page .content .model-1 .time-box .title-3 .right .txt1 {
+            display: inline-block;
+            text-align: center;
+            width: 4.2666666667vw;
+            width: 0.4266666667rem;
+            height: 4.2666666667vw;
+            height: 0.4266666667rem;
+            background-color: rgba(54, 194, 147, 0.1);
+            border-radius: 0.5333333333vw;
+            border-radius: 0.0533333333rem;
+            font-size: 3.2vw;
+            font-size: 0.32rem;
+            font-weight: 400;
+            color: #36c293;
+            line-height: 4.2666666667vw;
+            line-height: 0.4266666667rem; }
+          .page .content .model-1 .time-box .title-3 .right .txt2 {
+            font-size: 3.7333333333vw;
+            font-size: 0.3733333333rem;
+            font-weight: 400;
+            color: #5d677a;
+            line-height: 5.3333333333vw;
+            line-height: 0.5333333333rem;
+            vertical-align: baseline; }
+          .page .content .model-1 .time-box .title-3 .right .txt3 {
+            display: inline-block;
+            text-align: center;
+            width: 4.2666666667vw;
+            width: 0.4266666667rem;
+            margin-left: 2.1333333333vw;
+            margin-left: 0.2133333333rem;
+            height: 4.2666666667vw;
+            height: 0.4266666667rem;
+            background-color: rgba(240, 92, 81, 0.1);
+            border-radius: 0.5333333333vw;
+            border-radius: 0.0533333333rem;
+            font-size: 3.2vw;
+            font-size: 0.32rem;
+            font-weight: 400;
+            color: #f05c51;
+            line-height: 4.2666666667vw;
+            line-height: 0.4266666667rem; }
+  .page .content .model-2 {
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem;
+    line-height: 0vw;
+    line-height: 0rem;
+    background-color: white; }
+    .page .content .model-2 > * {
+      padding-left: 4.2666666667vw;
+      padding-left: 0.4266666667rem;
+      padding-right: 4.2666666667vw;
+      padding-right: 0.4266666667rem; }
+    .page .content .model-2 .title {
+      height: 13.8666666667vw;
+      height: 1.3866666667rem;
+      font-size: 4.8vw;
+      font-size: 0.48rem;
+      font-weight: 500;
+      color: #383a3d;
+      line-height: 6.6666666667vw;
+      line-height: 0.6666666667rem;
+      position: relative;
+      padding-top: 3.7333333333vw;
+      padding-top: 0.3733333333rem; }
+    .page .content .model-2 .title-bottom {
+      font-size: 3.7333333333vw;
+      font-size: 0.3733333333rem;
+      font-weight: 400;
+      color: #5d677a;
+      line-height: 5.3333333333vw;
+      line-height: 0.5333333333rem; }
+    .page .content .model-2 .model-2-con {
+      font-size: 3.7333333333vw;
+      font-size: 0.3733333333rem;
+      font-weight: 400;
+      color: #5d677a;
+      line-height: 6.4vw;
+      line-height: 0.64rem;
+      margin-top: 1.0666666667vw;
+      margin-top: 0.1066666667rem; }
+    .page .content .model-2 .see-info {
+      width: 100%;
+      text-align: center;
+      height: 11.7333333333vw;
+      height: 1.1733333333rem;
+      padding-top: 3.2vw;
+      padding-top: 0.32rem;
+      font-size: 3.7333333333vw;
+      font-size: 0.3733333333rem;
+      font-weight: 500;
+      color: #1184d1;
+      line-height: 5.3333333333vw;
+      line-height: 0.5333333333rem;
+      margin-top: 5.3333333333vw;
+      margin-top: 0.5333333333rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.08); }
+  .page .content .model-3 {
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem;
+    line-height: 0vw;
+    line-height: 0rem;
+    background-color: white; }
+    .page .content .model-3 .header-nav {
+      width: 100vw;
+      width: 10rem;
+      height: 13.8666666667vw;
+      height: 1.3866666667rem; }
+      .page .content .model-3 .header-nav .child {
+        white-space: nowrap;
+        height: 6.6666666667vw;
+        height: 0.6666666667rem;
+        line-height: 0vw;
+        line-height: 0rem;
+        font-size: 0;
+        display: inline-block;
+        position: relative;
+        top: 3.7333333333vw;
+        top: 0.3733333333rem; }
+        .page .content .model-3 .header-nav .child .item {
+          display: inline-block;
+          position: relative;
+          z-index: 10;
+          height: 6.6666666667vw;
+          height: 0.6666666667rem;
+          vertical-align: middle;
+          line-height: 6.6666666667vw;
+          line-height: 0.6666666667rem;
+          font-size: 4.8vw;
+          font-size: 0.48rem;
+          color: #6c717a;
+          font-weight: 500;
+          margin-left: 4.2666666667vw;
+          margin-left: 0.4266666667rem; }
+          .page .content .model-3 .header-nav .child .item:first-child {
+            margin-left: 5.3333333333vw;
+            margin-left: 0.5333333333rem; }
+        .page .content .model-3 .header-nav .child.active span {
+          color: #383a3d; }
+        .page .content .model-3 .header-nav .child .bar {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+          height: 1.6vw;
+          height: 0.16rem;
+          background-image: -webkit- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -moz- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -ms- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: -o- linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          background-image: linear-gradient(135deg, #1184d1 0%, #00b4f5 100%);
+          left: 0;
+          bottom: 0; }
+    .page .content .model-3 .content-info .item {
+      padding-bottom: 4.2666666667vw;
+      padding-bottom: 0.4266666667rem;
+      height: max-content; }
+      .page .content .model-3 .content-info .item .img-box {
+        margin-top: 2.6666666667vw;
+        margin-top: 0.2666666667rem;
+        background-color: #CBCBED;
+        font-size: 0; }
+        .page .content .model-3 .content-info .item .img-box .img {
+          width: 100%;
+          height: auto; }
+      .page .content .model-3 .content-info .item .list-1 .item-list-1 {
+        width: 100%;
+        padding-left: 4.2666666667vw;
+        padding-left: 0.4266666667rem;
+        padding-right: 4.2666666667vw;
+        padding-right: 0.4266666667rem;
+        padding-bottom: 2.6666666667vw;
+        padding-bottom: 0.2666666667rem;
+        overflow: hidden;
+        min-height: 18.1333333333vw;
+        min-height: 1.8133333333rem; }
+        .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title {
+          margin-top: 2.6666666667vw;
+          margin-top: 0.2666666667rem;
+          font-size: 0; }
+          .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title > * {
+            display: inline-block;
+            vertical-align: middle; }
+          .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon {
+            width: 6.4vw;
+            width: 0.64rem;
+            height: 6.4vw;
+            height: 0.64rem;
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat; }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i1 {
+              background-image: url("icon/equipment-img-1.png"); }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i2 {
+              background-image: url("icon/equipment-img-2.png"); }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i3 {
+              background-image: url("icon/equipment-img-3.png"); }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i4 {
+              background-image: url("icon/equipment-img-4.png"); }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i5 {
+              background-image: url("icon/equipment-img-5.png"); }
+            .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-icon.i6 {
+              background-image: url("icon/equipment-img-6.png"); }
+          .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-title .list-1-txt {
+            font-size: 4.2666666667vw;
+            font-size: 0.4266666667rem;
+            font-weight: 400;
+            color: #36383d;
+            line-height: 5.8666666667vw;
+            line-height: 0.5866666667rem;
+            margin-left: 4.2666666667vw;
+            margin-left: 0.4266666667rem; }
+        .page .content .model-3 .content-info .item .list-1 .item-list-1 .item-list-1-con {
+          font-size: 3.7333333333vw;
+          font-size: 0.3733333333rem;
+          font-weight: 400;
+          color: #5d677a;
+          line-height: 6.4vw;
+          line-height: 0.64rem;
+          width: 80.8vw;
+          width: 8.08rem;
+          margin-left: 10.6666666667vw;
+          margin-left: 1.0666666667rem; }
+      .page .content .model-3 .content-info .item .item-title-1 {
+        height: 13.8666666667vw;
+        height: 1.3866666667rem;
+        width: 91.4666666667vw;
+        width: 9.1466666667rem;
+        margin-left: 4.2666666667vw;
+        margin-left: 0.4266666667rem;
+        line-height: 13.8666666667vw;
+        line-height: 1.3866666667rem;
+        background-color: white;
+        border-top: 1px solid rgba(0, 0, 0, 0.16);
+        font-size: 4.8vw;
+        font-size: 0.48rem;
+        font-weight: 500;
+        color: #383a3d;
+        line-height: 6.6666666667vw;
+        line-height: 0.6666666667rem;
+        padding-top: 3.2vw;
+        padding-top: 0.32rem; }
+      .page .content .model-3 .content-info .item .item-title-bottom {
+        padding-left: 4.2666666667vw;
+        padding-left: 0.4266666667rem;
+        padding-right: 4.2666666667vw;
+        padding-right: 0.4266666667rem; }
+        .page .content .model-3 .content-info .item .item-title-bottom .item-title-exit {
+          display: block; }
+          .page .content .model-3 .content-info .item .item-title-bottom .item-title-exit .txt1 {
+            font-size: 5.3333333333vw;
+            font-size: 0.5333333333rem;
+            font-weight: 500;
+            color: #1184d1;
+            line-height: 7.4666666667vw;
+            line-height: 0.7466666667rem;
+            vertical-align: baseline; }
+          .page .content .model-3 .content-info .item .item-title-bottom .item-title-exit .txt2 {
+            font-size: 3.7333333333vw;
+            font-size: 0.3733333333rem;
+            font-weight: 500;
+            color: #1184d1;
+            line-height: 5.3333333333vw;
+            line-height: 0.5333333333rem;
+            vertical-align: baseline; }
+        .page .content .model-3 .content-info .item .item-title-bottom .item-title-des {
+          display: block;
+          font-size: 3.7333333333vw;
+          font-size: 0.3733333333rem;
+          font-weight: 400;
+          color: #5d677a;
+          line-height: 6.4vw;
+          line-height: 0.64rem; }
+          .page .content .model-3 .content-info .item .item-title-bottom .item-title-des.c2 {
+            color: #383A3D; }
+      .page .content .model-3 .content-info .item .mt10 {
+        margin-top: 2.6666666667vw;
+        margin-top: 0.2666666667rem; }
+      .page .content .model-3 .content-info .item .item-bus {
+        background-color: whitesmoke;
+        border-radius: 1.0666666667vw;
+        border-radius: 0.1066666667rem;
+        width: 91.4666666667vw;
+        width: 9.1466666667rem;
+        margin-left: 4.2666666667vw;
+        margin-left: 0.4266666667rem;
+        padding-left: 4.2666666667vw;
+        padding-left: 0.4266666667rem;
+        padding-right: 4.2666666667vw;
+        padding-right: 0.4266666667rem;
+        padding-top: 4.2666666667vw;
+        padding-top: 0.4266666667rem;
+        padding-bottom: 4.2666666667vw;
+        padding-bottom: 0.4266666667rem; }
+        .page .content .model-3 .content-info .item .item-bus > div {
+          margin-top: 2.6666666667vw;
+          margin-top: 0.2666666667rem; }
+          .page .content .model-3 .content-info .item .item-bus > div:first-child {
+            margin-top: 0; }
+        .page .content .model-3 .content-info .item .item-bus .bus-title-line {
+          overflow: hidden; }
+          .page .content .model-3 .content-info .item .item-bus .bus-title-line.mt {
+            margin-top: 4.2666666667vw;
+            margin-top: 0.4266666667rem; }
+          .page .content .model-3 .content-info .item .item-bus .bus-title-line .txt1 {
+            font-size: 14px;
+            color: #383a3d;
+            line-height: 20px;
+            font-size: 3.7333333333vw;
+            font-size: 0.3733333333rem;
+            font-weight: 400;
+            line-height: 5.3333333333vw;
+            line-height: 0.5333333333rem; }
+          .page .content .model-3 .content-info .item .item-bus .bus-title-line .txt2 {
+            float: right;
+            height: 5.3333333333vw;
+            height: 0.5333333333rem;
+            line-height: 5.3333333333vw;
+            line-height: 0.5333333333rem;
+            background-color: #1184d1;
+            border-radius: 0.5333333333vw;
+            border-radius: 0.0533333333rem;
+            font-size: 3.2vw;
+            font-size: 0.32rem;
+            font-weight: 500;
+            color: white;
+            padding-left: 1.3333333333vw;
+            padding-left: 0.1333333333rem;
+            padding-right: 1.3333333333vw;
+            padding-right: 0.1333333333rem; }
+        .page .content .model-3 .content-info .item .item-bus .bus-content-line {
+          margin-top: 2.1333333333vw;
+          margin-top: 0.2133333333rem;
+          font-size: 3.7333333333vw;
+          font-size: 0.3733333333rem;
+          font-weight: 400;
+          color: #6c717a;
+          line-height: 5.3333333333vw;
+          line-height: 0.5333333333rem; }
+  .page .content .model-4 {
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem;
+    height: 13.8666666667vw;
+    height: 1.3866666667rem;
+    background-color: white; }
+    .page .content .model-4 .txt {
+      font-size: 4.8vw;
+      font-size: 0.48rem;
+      font-weight: 500;
+      color: #383a3d;
+      line-height: 6.6666666667vw;
+      line-height: 0.6666666667rem;
+      float: left;
+      margin-top: 3.7333333333vw;
+      margin-top: 0.3733333333rem;
+      margin-left: 4.2666666667vw;
+      margin-left: 0.4266666667rem; }
+    .page .content .model-4 .icon {
+      background-image: url("icon/icon-allow.png");
+      float: right;
+      width: 1.8666666667vw;
+      width: 0.1866666667rem;
+      height: 3.2vw;
+      height: 0.32rem;
+      margin-right: 4.2666666667vw;
+      margin-right: 0.4266666667rem;
+      margin-top: 5.3333333333vw;
+      margin-top: 0.5333333333rem;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat; }
+  .page .content .model-5 {
+    height: 12vw;
+    height: 1.2rem;
+    margin-top: 2.6666666667vw;
+    margin-top: 0.2666666667rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: white; }
+    .page .content .model-5 > * {
+      float: left;
+      width: 50%;
+      text-align: center;
+      line-height: 0; }
+    .page .content .model-5 .txt {
+      font-size: 4.2666666667vw;
+      font-size: 0.4266666667rem;
+      font-weight: 400;
+      color: #1184d1;
+      line-height: 5.8666666667vw;
+      line-height: 0.5866666667rem;
+      display: inline-block;
+      margin-top: 3.2vw;
+      margin-top: 0.32rem; }
+    .page .content .model-5 .left {
+      position: relative;
+      height: 100%; }
+      .page .content .model-5 .left .line {
+        width: 1px;
+        height: 4.2666666667vw;
+        height: 0.4266666667rem;
+        top: 4vw;
+        top: 0.4rem;
+        background: rgba(0, 0, 0, 0.12);
+        position: absolute;
+        right: 0; }
+    .page .content .model-5 .right {
+      height: 100%; }
+
+.p2 {
+  transform: translate3D(100%, 0, 0);
+  -moz-transform: translate3D(100%, 0, 0);
+  -webkit-transform: translate3D(100%, 0, 0);
+  -o-transform: translate3D(100%, 0, 0);
+  -ms-transform: translate3D(100%, 0, 0);
+  transition: all 0.25s linear;
+  z-index: 1000; }
+  .p2.show {
+    transform: translate3D(0%, 0, 0);
+    -moz-transform: translate3D(0%, 0, 0);
+    -webkit-transform: translate3D(0%, 0, 0);
+    -o-transform: translate3D(0%, 0, 0);
+    -ms-transform: translate3D(0%, 0, 0);
+    transition: all 0.25s linear; }
+  .p2 .header {
+    line-height: 0; }
+  .p2 .header-box {
+    width: 100vw;
+    width: 10rem;
+    height: 50.1333333333vw;
+    height: 5.0133333333rem;
+    background-color: #1184D1;
+    text-align: center; }
+    .p2 .header-box .search {
+      font-size: 4.8vw;
+      font-size: 0.48rem;
+      font-weight: 500;
+      color: white;
+      height: 6.6666666667vw;
+      height: 0.6666666667rem;
+      line-height: 6.6666666667vw;
+      line-height: 0.6666666667rem;
+      display: inline-block;
+      position: relative;
+      top: 2.6666666667vw;
+      top: 0.2666666667rem; }
+    .p2 .header-box .head-title {
+      font-size: 6.4vw;
+      font-size: 0.64rem;
+      font-weight: 500;
+      color: white;
+      line-height: 8.8vw;
+      line-height: 0.88rem;
+      margin-top: 10.6666666667vw;
+      margin-top: 1.0666666667rem;
+      text-align: left;
+      padding-left: 4.2666666667vw;
+      padding-left: 0.4266666667rem; }
+    .p2 .header-box .select-box {
+      margin-top: 2.1333333333vw;
+      margin-top: 0.2133333333rem;
+      padding-left: 4.2666666667vw;
+      padding-left: 0.4266666667rem;
+      text-align: left; }
+      .p2 .header-box .select-box .box {
+        display: inline-block;
+        line-height: 0; }
+        .p2 .header-box .select-box .box > * {
+          display: inline-block;
+          vertical-align: middle; }
+      .p2 .header-box .select-box .txt {
+        font-size: 4.2666666667vw;
+        font-size: 0.4266666667rem;
+        font-weight: 400;
+        color: white;
+        line-height: 5.8666666667vw;
+        line-height: 0.5866666667rem; }
+      .p2 .header-box .select-box .icon {
+        display: inline-block;
+        width: 4.2666666667vw;
+        width: 0.4266666667rem;
+        height: 2.1333333333vw;
+        height: 0.2133333333rem;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("icon/select.png");
+        margin-left: 0.8vw;
+        margin-left: 0.08rem; }
+  .p2 .content {
+    position: absolute;
+    top: 50.1333333333vw;
+    top: 5.0133333333rem;
+    overflow: scroll;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    padding-left: 4.2666666667vw;
+    padding-left: 0.4266666667rem;
+    padding-right: 4.2666666667vw;
+    padding-right: 0.4266666667rem; }
+    .p2 .content .bottom-btn {
+      padding-bottom: 4.2666666667vw;
+      padding-bottom: 0.4266666667rem; }
+      .p2 .content .bottom-btn .checked .input-checked {
+        display: inline-block;
+        font-size: 0;
+        vertical-align: middle; }
+      .p2 .content .bottom-btn .checked .input-checked [type="checkbox"] {
+        display: none; }
+      .p2 .content .bottom-btn .checked .input-checked .views {
+        display: inline-block;
+        width: 5.3333333333vw;
+        width: 0.5333333333rem;
+        height: 5.3333333333vw;
+        height: 0.5333333333rem;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        position: relative;
+        border-radius: 100%; }
+      .p2 .content .bottom-btn .checked .input-checked [type="checkbox"]:checked + .views:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 50%;
+        border-radius: 100%;
+        top: 50%;
+        width: 2.6666666667vw;
+        width: 0.2666666667rem;
+        height: 2.6666666667vw;
+        height: 0.2666666667rem;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #49cc1d; }
+      .p2 .content .bottom-btn .checked .txt {
+        vertical-align: middle;
+        font-size: 3.7333333333vw;
+        font-size: 0.3733333333rem;
+        font-weight: 400;
+        color: #6c717a;
+        line-height: 5.3333333333vw;
+        line-height: 0.5333333333rem;
+        margin-left: 2.1333333333vw;
+        margin-left: 0.2133333333rem; }
+      .p2 .content .bottom-btn .phone {
+        width: 91.4666666667vw;
+        width: 9.1466666667rem;
+        height: 13.8666666667vw;
+        height: 1.3866666667rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.16);
+        margin-top: 4.2666666667vw;
+        margin-top: 0.4266666667rem; }
+        .p2 .content .bottom-btn .phone .txt {
+          font-size: 3.7333333333vw;
+          font-size: 0.3733333333rem;
+          font-weight: 400;
+          color: #6c717a;
+          line-height: 5.3333333333vw;
+          line-height: 0.5333333333rem;
+          vertical-align: middle; }
+        .p2 .content .bottom-btn .phone .input {
+          vertical-align: middle;
+          height: 13.8666666667vw;
+          height: 1.3866666667rem;
+          line-height: 13.8666666667vw;
+          line-height: 1.3866666667rem;
+          font-size: 3.7333333333vw;
+          font-size: 0.3733333333rem;
+          color: #6c717a;
+          width: 53.3333333333vw;
+          width: 5.3333333333rem;
+          border: none;
+          outline: none; }
+      .p2 .content .bottom-btn .btn {
+        width: 91.4666666667vw;
+        width: 9.1466666667rem;
+        height: 11.7333333333vw;
+        height: 1.1733333333rem;
+        text-align: center;
+        background-color: #1184d1;
+        border-radius: 1.0666666667vw;
+        border-radius: 0.1066666667rem;
+        padding-top: 2.9333333333vw;
+        padding-top: 0.2933333333rem;
+        margin-top: 5.3333333333vw;
+        margin-top: 0.5333333333rem; }
+        .p2 .content .bottom-btn .btn .txt {
+          font-size: 4.2666666667vw;
+          font-size: 0.4266666667rem;
+          font-weight: 500;
+          color: white;
+          line-height: 5.8666666667vw;
+          line-height: 0.5866666667rem; }
+    .p2 .content .textarea-box {
+      width: 100%;
+      margin-top: 5.3333333333vw;
+      margin-top: 0.5333333333rem; }
+      .p2 .content .textarea-box .textarea {
+        resize: none;
+        border: none;
+        outline: none;
+        font-size: 4.2666666667vw;
+        font-size: 0.4266666667rem;
+        font-weight: 400;
+        color: #6C717A;
+        line-height: 5.8666666667vw;
+        line-height: 0.5866666667rem;
+        width: 100%;
+        height: 53.3333333333vw;
+        height: 5.3333333333rem; }
+
+.layer-user-transfer {
+  box-sizing: border-box;
+  background-color: white;
+  padding-top: 1px; }
+  .layer-user-transfer .title {
+    text-align: center;
+    font-size: 4.8vw;
+    font-size: 0.48rem;
+    font-weight: 500;
+    color: #383a3d;
+    line-height: 6.6666666667vw;
+    line-height: 0.6666666667rem;
+    margin-top: 5.3333333333vw;
+    margin-top: 0.5333333333rem; }
+  .layer-user-transfer .list {
+    padding-top: 2.6666666667vw;
+    padding-top: 0.2666666667rem;
+    padding-left: 5.3333333333vw;
+    padding-left: 0.5333333333rem;
+    padding-right: 5.3333333333vw;
+    padding-right: 0.5333333333rem;
+    padding-bottom: 5.3333333333vw;
+    padding-bottom: 0.5333333333rem; }
+    .layer-user-transfer .list .item {
+      margin-top: 2.6666666667vw;
+      margin-top: 0.2666666667rem;
+      font-size: 0; }
+      .layer-user-transfer .list .item > * {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 3.7333333333vw;
+        font-size: 0.3733333333rem;
+        font-weight: 400;
+        color: #383a3d;
+        line-height: 5.3333333333vw;
+        line-height: 0.5333333333rem; }
+      .layer-user-transfer .list .item .left-1 {
+        width: 33.3333333333vw;
+        width: 3.3333333333rem; }
+      .layer-user-transfer .list .item .left-2 {
+        width: 33.3333333333vw;
+        width: 3.3333333333rem; }
+        .layer-user-transfer .list .item .left-2.c2 {
+          color: #6c717a; }
+      .layer-user-transfer .list .item .left-3 {
+        width: 20vw;
+        width: 2rem; }
+        .layer-user-transfer .list .item .left-3.c2 {
+          color: #6c717a; }
+      .layer-user-transfer .list .item .img-1 {
+        width: 30.6666666667vw;
+        width: 3.0666666667rem; }
+      .layer-user-transfer .list .item .img-2 {
+        width: 57.6vw;
+        width: 5.76rem; }
+        .layer-user-transfer .list .item .img-2 .img {
+          width: 100%;
+          height: auto; }
+  .layer-user-transfer .btn {
+    width: 100vw;
+    width: 10rem;
+    height: 13.8666666667vw;
+    height: 1.3866666667rem;
+    background-color: white;
+    font-size: 4.8vw;
+    font-size: 0.48rem;
+    font-weight: 400;
+    color: #1184D1;
+    line-height: 6.6666666667vw;
+    line-height: 0.6666666667rem;
+    text-align: center;
+    padding-top: 3.4666666667vw;
+    padding-top: 0.3466666667rem;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.12); }
+
+/*# sourceMappingURL=station-details.css.map */

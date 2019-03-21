@@ -1,0 +1,145 @@
+@charset "UTF-8";
+$size:375;
+//margin
+@mixin marginLeft($val){
+  margin-left: $val*100/$size+vw;
+  margin-left: $val*100/$size/10+rem;
+}
+@mixin marginTop($val){
+  margin-top: $val*100/$size+vw;
+  margin-top: $val*100/$size/10+rem;
+}
+@mixin marginBottom($val){
+  margin-bottom: $val*100/$size+vw;
+  margin-bottom: $val*100/$size/10+rem;
+}
+@mixin marginRight($val){
+  margin-right: $val*100/$size+vw;
+  margin-right: $val*100/$size/10+rem;
+}
+@mixin left($val){
+  left: $val*100/$size+vw;
+  left: $val*100/$size/10+rem;
+}
+@mixin top($val){
+  top: $val*100/$size+vw;
+  top: $val*100/$size/10+rem;
+}
+@mixin bottom($val){
+  bottom: $val*100/$size+vw;
+  bottom: $val*100/$size/10+rem;
+}
+@mixin right($val){
+  right: $val*100/$size+vw;
+  right: $val*100/$size/10+rem;
+}
+//padding
+@mixin paddingLeft($val){
+  padding-left: $val*100/$size+vw;
+  padding-left: $val*100/$size/10+rem;
+}
+@mixin paddingTop($val){
+  padding-top: $val*100/$size+vw;
+  padding-top: $val*100/$size/10+rem;
+}
+@mixin paddingBottom($val){
+  padding-bottom: $val*100/$size+vw;
+  padding-bottom: $val*100/$size/10+rem;
+}
+@mixin paddingRight($val){
+  padding-right: $val*100/$size+vw;
+  padding-right: $val*100/$size/10+rem;
+}
+//borderRadios
+@mixin borderRadios($val){
+  border-radius: $val*100/$size+vw;
+  border-radius: $val*100/$size/10+rem;
+}
+//font-size
+@mixin fontSize($val){
+  font-size: $val*100/$size+vw;
+  font-size: $val*100/$size/10+rem;
+}
+//height
+@mixin height($val){
+  height: $val*100/$size+vw;
+  height: $val*100/$size/10+rem;
+}
+//line-height
+@mixin lineHeight($val){
+  line-height: $val*100/$size+vw;
+  line-height: $val*100/$size/10+rem;
+}
+//width
+@mixin width($val){
+  width: $val*100/$size+vw;
+  width: $val*100/$size/10+rem;
+}
+//width
+@mixin minWidth($val){
+  min-width: $val*100/$size+vw;
+  min-width: $val*100/$size/10+rem;
+}
+//height
+@mixin minHeight($val){
+  min-height: $val*100/$size+vw;
+  min-height: $val*100/$size/10+rem;
+}
+//calc
+@mixin calc($attr,$val) {
+  #{$attr}:-moz-$val;
+  #{$attr}:-ms-$val;
+  #{$attr}:-webkic-$val;
+  #{$attr}:-o-$val;
+  #{$attr}:$val;
+}
+//input
+@mixin resetInput(){
+  border: none;
+  outline: none;
+}
+//back
+@mixin backLinearGradient($v){
+    background-image: -webkit-$v;
+  background-image: -moz-$v;
+  background-image: -ms-$v;
+  background-image: -o-$v;
+  background-image: $v;
+}
+//transform
+@mixin transform($v){
+  transform: $v;
+  -moz-transform: $v;
+  -webkit-transform: $v;
+  -o-transform: $v;
+  -ms-transform: $v;
+}
+@mixin backImg($url){
+  background-image: url("icon/"+$url);
+}
+//bg
+@mixin back(){
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+//img
+@mixin img(){
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  .img{
+    width: 100%;
+    height: auto;
+  }
+}
+@mixin img2(){
+
+  .img{
+    width: 100%;
+    height: auto;
+  }
+}

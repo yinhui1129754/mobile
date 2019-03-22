@@ -72,7 +72,7 @@
   .content{
     position: absolute;
     left: 0;
-    @include top(116);
+    @include top(96);
     bottom: 0;
 
   overflow: hidden;
@@ -81,19 +81,49 @@
     .con-item{
       position: relative;
       .line{
-        background:rgba(34,42,140,1);
         @include borderRadios(6);
         position: absolute;
         @include left(24);
         @include top(16);
         @include bottom(16);
         @include width(12);
+        &.c1{
+          background-color: #270b86;
+        }
+        &.c2{
+          background-color: #f3503f;
+        }
+        &.c3{
+          background-color: #c30164;
+        }
+        &.c4{
+          background-color: #2ea959;
+        }
+        &.c5{
+          background-color: #ab27b1;
+        }
+        &.c6{
+          background-color: #ab6834;
+        }
+        &.c7{
+          background-color: #6eccd8;
+        }
+        &.c8{
+          background-color: #9abd07;
+        }
+        &.c9{
+          background-color: #e2a50f;
+        }
+        &.c10{
+          background-color: #0a46b6;
+        }
       }
     }
     .list{
       position: relative;
       .item{
         font-size: 0;
+        white-space: nowrap;
         >*{
           display: inline-block;
           vertical-align: middle;
@@ -116,7 +146,7 @@
           @include height(44);
           @include width(315);
           @include lineHeight(0);
-          border-bottom: 1px solid  rgba(0,0,0,0.12);
+          border-bottom: 1px solid  rgba(0, 0, 0, 0.06);
           >*{
             vertical-align: top;
             display: inline-block;
@@ -140,18 +170,6 @@
             position: relative;
       //      background-color: #cccccc;
             @include back();
-            &.i1{
-              @include backImg("change-img-1.png");
-            }
-            &.i2{
-              @include backImg("change-img-2.png");
-            }
-            &.i3{
-              @include backImg("change-img-3.png");
-            }
-            &.i4{
-              @include backImg("change-img-4.png");
-            }
           }
           .child-right{
             float: right;

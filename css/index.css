@@ -10,7 +10,8 @@
     height: 5.3333333333vw;
     height: 0.5333333333rem;
     width: 100vw;
-    width: 10rem; }
+    width: 10rem;
+    display: none; }
   .page .header {
     height: 11.7333333333vw;
     height: 1.1733333333rem;
@@ -19,13 +20,13 @@
     position: relative; }
     .page .header .back {
       position: absolute;
-      width: 4.2666666667vw;
-      width: 0.4266666667rem;
+      width: 8vw;
+      width: 0.8rem;
       height: 4.2666666667vw;
       height: 0.4266666667rem;
       background-image: url("icon/back.png");
-      left: 3.2vw;
-      left: 0.32rem;
+      left: 1.3333333333vw;
+      left: 0.1333333333rem;
       top: 3.7333333333vw;
       top: 0.3733333333rem;
       background-size: auto 100%;
@@ -84,6 +85,9 @@
 
 .layui-m-layercont {
   background-color: white; }
+
+.layui-m-layercont2 {
+  background-color: transparent; }
 
 .page .header-top {
   background-color: whitesmoke; }
@@ -180,7 +184,9 @@
     display: inline-block;
     position: relative;
     top: 3.7333333333vw;
-    top: 0.3733333333rem; }
+    top: 0.3733333333rem;
+    padding-right: 4.2666666667vw;
+    padding-right: 0.4266666667rem; }
     .page .header-bottom .child .item {
       display: inline-block;
       position: relative;
@@ -218,15 +224,14 @@
 .page .content {
   position: absolute;
   left: 0;
-  top: 30.9333333333vw;
-  top: 3.0933333333rem;
+  top: 25.6vw;
+  top: 2.56rem;
   bottom: 0;
   overflow: hidden;
   width: 100%; }
   .page .content .con-item {
     position: relative; }
     .page .content .con-item .line {
-      background: #222a8c;
       border-radius: 1.6vw;
       border-radius: 0.16rem;
       position: absolute;
@@ -238,10 +243,31 @@
       bottom: 0.4266666667rem;
       width: 3.2vw;
       width: 0.32rem; }
+      .page .content .con-item .line.c1 {
+        background-color: #270b86; }
+      .page .content .con-item .line.c2 {
+        background-color: #f3503f; }
+      .page .content .con-item .line.c3 {
+        background-color: #c30164; }
+      .page .content .con-item .line.c4 {
+        background-color: #2ea959; }
+      .page .content .con-item .line.c5 {
+        background-color: #ab27b1; }
+      .page .content .con-item .line.c6 {
+        background-color: #ab6834; }
+      .page .content .con-item .line.c7 {
+        background-color: #6eccd8; }
+      .page .content .con-item .line.c8 {
+        background-color: #9abd07; }
+      .page .content .con-item .line.c9 {
+        background-color: #e2a50f; }
+      .page .content .con-item .line.c10 {
+        background-color: #0a46b6; }
   .page .content .list {
     position: relative; }
     .page .content .list .item {
-      font-size: 0; }
+      font-size: 0;
+      white-space: nowrap; }
       .page .content .list .item > * {
         display: inline-block;
         vertical-align: middle; }
@@ -269,7 +295,7 @@
         width: 8.4rem;
         line-height: 0vw;
         line-height: 0rem;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
         .page .content .list .item .right > * {
           vertical-align: top;
           display: inline-block; }
@@ -297,14 +323,6 @@
           background-size: 100% 100%;
           background-position: center;
           background-repeat: no-repeat; }
-          .page .content .list .item .right .icon.i1 {
-            background-image: url("icon/change-img-1.png"); }
-          .page .content .list .item .right .icon.i2 {
-            background-image: url("icon/change-img-2.png"); }
-          .page .content .list .item .right .icon.i3 {
-            background-image: url("icon/change-img-3.png"); }
-          .page .content .list .item .right .icon.i4 {
-            background-image: url("icon/change-img-4.png"); }
         .page .content .list .item .right .child-right {
           float: right;
           font-size: 0;

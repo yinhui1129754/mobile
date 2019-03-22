@@ -10,7 +10,8 @@
     height: 5.3333333333vw;
     height: 0.5333333333rem;
     width: 100vw;
-    width: 10rem; }
+    width: 10rem;
+    display: none; }
   .page .header {
     height: 11.7333333333vw;
     height: 1.1733333333rem;
@@ -19,13 +20,13 @@
     position: relative; }
     .page .header .back {
       position: absolute;
-      width: 4.2666666667vw;
-      width: 0.4266666667rem;
+      width: 8vw;
+      width: 0.8rem;
       height: 4.2666666667vw;
       height: 0.4266666667rem;
       background-image: url("icon/back.png");
-      left: 3.2vw;
-      left: 0.32rem;
+      left: 1.3333333333vw;
+      left: 0.1333333333rem;
       top: 3.7333333333vw;
       top: 0.3733333333rem;
       background-size: auto 100%;
@@ -84,5 +85,8 @@
 
 .layui-m-layercont {
   background-color: white; }
+
+.layui-m-layercont2 {
+  background-color: transparent; }
 
 /*# sourceMappingURL=page.css.map */

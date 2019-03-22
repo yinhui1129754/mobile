@@ -19,6 +19,7 @@ $(function(){
             var child = $(this.$el).find(".select-box .box");
             var mc = new Hammer(child[0]);
             var THIS = this;
+
             $(this.$el).css("display","none");
             mc.on("tap", function(ev) {
                 ev.srcEvent.stopPropagation();
@@ -135,7 +136,9 @@ $(function(){
                     });
                 }
             });
-
+            utils.addEvent($page.find(".back"),"tap",function(){
+                window.location.href="index.html";
+            });
         },
         updated:function(){
             if(this.initBool){
@@ -186,8 +189,8 @@ $(function(){
                         str=str+"</div>";
                         inter++;
                     }
-                    str=str+"<div class='item'><div class='img-1'>"+row["列车方向"][0].description+"</div><div class='img-2'><img class='img' src='../img/10_huaxing_shuangliujichang2hangzhanlou.png'></div></div>";
-                    str=str+"<div class='item'><div class='img-1'>"+row["列车方向"][1].description+"</div><div class='img-2'><img class='img' src='../img/10_huaxing_taipingyuan.png'></div></div>";
+                    str=str+"<div class='item'><div class='img-1'>"+row["列车方向"][0].description+"</div><div class='img-2'><img class='img' src='img/10_huaxing_shuangliujichang2hangzhanlou.png'></div></div>";
+                    str=str+"<div class='item'><div class='img-1'>"+row["列车方向"][1].description+"</div><div class='img-2'><img class='img' src='img/10_huaxing_taipingyuan.png'></div></div>";
                     str=str+"</div>" +
                         "<div class='btn'>关闭</div>" +
                         "</div>";

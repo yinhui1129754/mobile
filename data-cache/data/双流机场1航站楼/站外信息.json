@@ -1,0 +1,72 @@
+{
+	"stationName": "双流机场1航站楼",
+	"deviceInfo": [
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " A ",
+			"roads": "机场北二路|机场北一路|西航港大道中二段",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 1
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " C ",
+			"roads": "机场北二路|机场北一路|S6成都机场高速",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 1
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " D ",
+			"roads": "机场北二路|机场北一路|西航港大道中二段",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 1
+		}
+	],
+	"busInfo": [
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " A ",
+			"busStationName": "T1航站楼(公交站)",
+			"busStationDistance": 28.0,
+			"busLine": "机场专线2号线;机场专线4号线;机场专线5号线;机场巴士什邡线"
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " A ",
+			"busStationName": "双流国际机场(T1航站楼)(公交站)",
+			"busStationDistance": 74.0,
+			"busLine": "315路;机场专线1号线"
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " C ",
+			"busStationName": "双流国际机场(t1航站楼)(公交站)",
+			"busStationDistance": 56.0,
+			"busLine": "机场专线2号线;机场专线4号线;机场专线5号线"
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " D ",
+			"busStationName": "双流国际机场T1航站楼(公交站)",
+			"busStationDistance": 77.0,
+			"busLine": "机场专线3号线"
+		},
+		{
+			"stationName": "双流机场1航站楼",
+			"gate": " D ",
+			"busStationName": "西航港大道中二段站(公交站)",
+			"busStationDistance": 381.0,
+			"busLine": "315路;822路"
+		}
+	]
+}

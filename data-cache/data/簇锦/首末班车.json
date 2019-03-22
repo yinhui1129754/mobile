@@ -1,0 +1,40 @@
+{
+	"line_id": "10",
+	"remark": null,
+	"timetablefl": [
+		{
+			"start_station_id": "1026",
+			"station_id": "1022",
+			"dest_station_id": "1021",
+			"direction": 1,
+			"first_time": "6:16",
+			"last_time": "23:16",
+			"first_time_adjust": null,
+			"last_time_adjust": null,
+			"baseTimefl": [
+				{
+					"stationNameCN": "簇锦",
+					"isTransfer": 0,
+					"transferline": null
+				}
+			]
+		},
+		{
+			"start_station_id": "1021",
+			"station_id": "1022",
+			"dest_station_id": "1026",
+			"direction": 2,
+			"first_time": "6:02",
+			"last_time": "23:02",
+			"first_time_adjust": null,
+			"last_time_adjust": null,
+			"baseTimefl": [
+				{
+					"stationNameCN": "簇锦",
+					"isTransfer": 0,
+					"transferline": null
+				}
+			]
+		}
+	]
+}

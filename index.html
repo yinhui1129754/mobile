@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 750px">
+<head>
+    <meta charset="UTF-8">
+    <title>站点信息</title>
+    <!--引入meta-->
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta name="referrer" content="always">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="email=no">
+    <!--引入css-->
+    <link rel="stylesheet" href="css/common/reset.css" />
+    <link rel="stylesheet" href="lib/common/layer/layer.css" />
+    <link rel="stylesheet" href="lib/common/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!--引入js-->
+    <script type="text/javascript" src="lib/common/rem.js"></script>
+    <script type="text/javascript" src="lib/common/zepto.min.js"></script>
+    <script type="text/javascript" src="lib/common/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="lib/common/vue.min.js"></script>
+    <script type="text/javascript" src="lib/common/hammer.min.js"></script>
+    <script merge="1" type="text/javascript" src="lib/common/layer/layer.js"></script>
+    <script type="text/javascript" src="lib/userDefine/userDefine.js"></script>
+</head>
+<body>
+<div id="index" class="page">
+    <div class="header-top"></div>
+    <div class="header">
+        <div class="icon back"></div>
+        <div class="search">
+            <div class="input-box">
+                <input @focus="searchFocus" v-model="search" placeholder="搜索站点" class="input" type="text" />
+                <div class="icon-search"></div>
+                <div class="icon-close"></div>
+            </div>
+            <div class="cancel">
+                取消
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="child active">
+            <div v-for="(item,index) of keys" class="item" v-html="parseInt(item)+'号线'">
+
+            </div>
+            <!--<div class="item">-->
+                <!--2号线-->
+            <!--</div>-->
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div id="swiper" class="content  swiper-container">
+        <div class="swiper-wrapper">
+
+            <div v-for="(item,index) of keys" class="swiper-slide">
+                <div class="con-item ">
+                    <div class="line" :class="'c'+parseInt(item)"></div>
+                    <div class="list">
+                        <div :data-code="item2.station_code" v-for="(item2,index) in lineData[item]" class="item">
+                            <div class="left">
+                                <div class="radio"></div>
+                            </div>
+                            <div class="right">
+                                <div class="txt" v-html="item2.station_name">
+
+                                </div>
+                                <div v-for="(item3,index) in item2.belongCode" class="icon">
+                                    <svg width="100%" height="100%" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                        <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g  transform="translate(-101.000000, -314.000000)">
+                                                <g  transform="translate(100.000000, 310.000000)">
+                                                    <rect id="bg" x="0" y="0" width="24" height="24"></rect>
+                                                    <g id="Group-2" transform="translate(1.000000, 4.500000)">
+                                                        <path d="M0,3.87323239 C0,3.87323239 8.8,-4.36620423 19.58,3.87323239 L22,1.97182394 L22,10.8450634 L16.5,10.8450634 L16.5,9.89435915 L20.35,9.89435915 L20.35,5.45773944 L19.36,6.40844366 C19.36,6.40844366 10.01,-1.93662676 0,3.87323239"
+                                                              :fill="color[item2.line_code]"></path>
+                                                        <path d="M22,11.1971408 C22,11.1971408 13.2,19.4365775 2.42,11.1971408 L0,13.0985493 L0,4.22530986 L5.5,4.22530986 L5.5,5.17601408 L1.65,5.17601408 L1.65,9.6126338 L2.64,8.66192958 C2.64,8.66192958 11.99,17.007 22,11.1971408"
+                                                              :fill="color[item3]"></path>
+                                                    </g>
+                                                    <text id="换乘" font-family="PingFangSC-Regular, PingFang SC" font-size="6" font-weight="normal" letter-spacing="-0.5" fill="#36383D">
+                                                        <tspan x="6" y="14">换</tspan>
+                                                        <tspan x="11.5" y="14">乘</tspan>
+                                                    </text>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="child-right ">
+                                    <div v-if="item2.tft_desc" class="icon-r i6"></div>
+                                    <div v-for="(item3,index) in item2.belongCode" class="icon-r num-icon" :class="'c'+parseInt(item3)" v-html="parseInt(item3)"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="history-search">
+        <div v-if="!search" class="history-title">
+            搜索历史
+        </div>
+        <div  class="list">
+            <div v-if="search" :data-code="item.station_code" v-for="(item,index) of showData" class="item">
+                <div class="left" v-html="item.station_name"></div>
+                <div class="right">
+                    <div v-for="(item2,index) of item.allLine" class="num-icon" :class="'c'+parseInt(item2)" v-html="parseInt(item2)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

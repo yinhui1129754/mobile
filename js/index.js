@@ -12,7 +12,9 @@ $(function(){
             utils.addEvent($page.find(".icon-close"),"tap",function(){
                 THIS.tapIconClose.apply(THIS,arguments);
             });
-
+            utils.addEvent($page.find(".back"),"tap",function(){
+                window.location.href="CDMetroScheme://navigateBack";
+            });
            //
             $.ajax({
                 type:"get",
@@ -34,9 +36,9 @@ $(function(){
                         }
                     }
                     THIS.lineData = utils.orderByAttr(data,"line_code");
+                    THIS.keys =utils.getKey(data,"line_code");
                     THIS.allData = data;
                     THIS.initBool = true;
-                    console.log(data);
                 },
                 error:function(){
                     layer.open({
@@ -47,9 +49,10 @@ $(function(){
         },
         updated:function(){
             if(this.initBool){
-                this.swiper();
                 this.bindTap();
                 this.initBool=false;
+                this.swiper();
+
 
             }
         },
@@ -60,7 +63,20 @@ $(function(){
                 allData:[],
                 historyData:[],
                 showData:[],
-                initBool:false
+                initBool:false,
+                keys:[],
+                color:{
+                    "01":"#270b86",
+                    "02":"#f3503f",
+                    "03":"#c30164",
+                    "04":"#2ea959",
+                    "05":"#ab27b1",
+                    "06":"#ab6834",
+                    "07":"#6eccd8",
+                    "08":"#9abd07",
+                    "09":"#e2a50f",
+                    "10":"#0a46b6"
+                }
             };
         },
         methods:{

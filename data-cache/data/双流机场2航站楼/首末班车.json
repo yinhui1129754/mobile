@@ -1,0 +1,40 @@
+{
+	"line_id": "10",
+	"remark": null,
+	"timetablefl": [
+		{
+			"start_station_id": "1026",
+			"station_id": "1026",
+			"dest_station_id": "1021",
+			"direction": 1,
+			"first_time": "6:05",
+			"last_time": "23:05",
+			"first_time_adjust": null,
+			"last_time_adjust": null,
+			"baseTimefl": [
+				{
+					"stationNameCN": "双流机场2航站楼",
+					"isTransfer": 0,
+					"transferline": null
+				}
+			]
+		},
+		{
+			"start_station_id": "1021",
+			"station_id": "1026",
+			"dest_station_id": "1026",
+			"direction": 2,
+			"first_time": null,
+			"last_time": null,
+			"first_time_adjust": null,
+			"last_time_adjust": null,
+			"baseTimefl": [
+				{
+					"stationNameCN": "双流机场2航站楼",
+					"isTransfer": 0,
+					"transferline": null
+				}
+			]
+		}
+	]
+}

@@ -10,7 +10,8 @@
     height: 5.3333333333vw;
     height: 0.5333333333rem;
     width: 100vw;
-    width: 10rem; }
+    width: 10rem;
+    display: none; }
   .page .header {
     height: 11.7333333333vw;
     height: 1.1733333333rem;
@@ -19,13 +20,13 @@
     position: relative; }
     .page .header .back {
       position: absolute;
-      width: 4.2666666667vw;
-      width: 0.4266666667rem;
+      width: 8vw;
+      width: 0.8rem;
       height: 4.2666666667vw;
       height: 0.4266666667rem;
       background-image: url("icon/back.png");
-      left: 3.2vw;
-      left: 0.32rem;
+      left: 1.3333333333vw;
+      left: 0.1333333333rem;
       top: 3.7333333333vw;
       top: 0.3733333333rem;
       background-size: auto 100%;
@@ -84,6 +85,9 @@
 
 .layui-m-layercont {
   background-color: white; }
+
+.layui-m-layercont2 {
+  background-color: transparent; }
 
 html, body {
   overflow: hidden !important; }
@@ -196,7 +200,9 @@ html, body {
         display: inline-block;
         position: relative;
         top: 3.7333333333vw;
-        top: 0.3733333333rem; }
+        top: 0.3733333333rem;
+        padding-right: 4.2666666667vw;
+        padding-right: 0.4266666667rem; }
         .page .content .model-1 .header-nav .child .item {
           display: inline-block;
           position: relative;
@@ -304,8 +310,8 @@ html, body {
       .page .content .model-1 .time-box .title-3 {
         overflow: hidden; }
         .page .content .model-1 .time-box .title-3 .left {
-          margin-top: 2.1333333333vw;
-          margin-top: 0.2133333333rem;
+          margin-top: 1.6vw;
+          margin-top: 0.16rem;
           float: left;
           font-size: 3.4666666667vw;
           font-size: 0.3466666667rem;
@@ -313,10 +319,15 @@ html, body {
           color: #5d677a;
           line-height: 4.8vw;
           line-height: 0.48rem; }
+          .page .content .model-1 .time-box .title-3 .left .span {
+            vertical-align: middle; }
+          .page .content .model-1 .time-box .title-3 .left .txt {
+            font-weight: 600;
+            color: #333333; }
         .page .content .model-1 .time-box .title-3 .right {
           float: right;
-          margin-top: 2.1333333333vw;
-          margin-top: 0.2133333333rem; }
+          margin-top: 1.6vw;
+          margin-top: 0.16rem; }
           .page .content .model-1 .time-box .title-3 .right .txt1 {
             display: inline-block;
             text-align: center;
@@ -324,13 +335,13 @@ html, body {
             width: 0.4266666667rem;
             height: 4.2666666667vw;
             height: 0.4266666667rem;
-            background-color: rgba(54, 194, 147, 0.1);
+            background-color: #36C293;
             border-radius: 0.5333333333vw;
             border-radius: 0.0533333333rem;
             font-size: 3.2vw;
             font-size: 0.32rem;
             font-weight: 400;
-            color: #36c293;
+            color: white;
             line-height: 4.2666666667vw;
             line-height: 0.4266666667rem; }
           .page .content .model-1 .time-box .title-3 .right .txt2 {
@@ -350,13 +361,13 @@ html, body {
             margin-left: 0.2133333333rem;
             height: 4.2666666667vw;
             height: 0.4266666667rem;
-            background-color: rgba(240, 92, 81, 0.1);
+            background-color: #F05C51;
             border-radius: 0.5333333333vw;
             border-radius: 0.0533333333rem;
             font-size: 3.2vw;
             font-size: 0.32rem;
             font-weight: 400;
-            color: #f05c51;
+            color: white;
             line-height: 4.2666666667vw;
             line-height: 0.4266666667rem; }
   .page .content .model-2 {
@@ -435,7 +446,9 @@ html, body {
         display: inline-block;
         position: relative;
         top: 3.7333333333vw;
-        top: 0.3733333333rem; }
+        top: 0.3733333333rem;
+        padding-right: 4.2666666667vw;
+        padding-right: 0.4266666667rem; }
         .page .content .model-3 .header-nav .child .item {
           display: inline-block;
           position: relative;
@@ -596,6 +609,8 @@ html, body {
         margin-top: 2.6666666667vw;
         margin-top: 0.2666666667rem; }
       .page .content .model-3 .content-info .item .item-bus {
+        margin-top: 4vw;
+        margin-top: 0.4rem;
         background-color: whitesmoke;
         border-radius: 1.0666666667vw;
         border-radius: 0.1066666667rem;

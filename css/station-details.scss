@@ -109,26 +109,33 @@ html,body{
         .title-3{
           overflow: hidden;
           .left{
-            @include marginTop(8);
+            @include marginTop(6);
             float: left;
             @include fontSize(13);
             font-weight:400;
             color:rgba(93,103,122,1);
             @include lineHeight(18);
+            .span{
+              vertical-align: middle;
+            }
+            .txt{
+              font-weight: 600;
+              color: #333333;
+            }
           }
           .right{
             float: right;
-            @include marginTop(8);
+            @include marginTop(6);
             .txt1{
               display: inline-block;
               text-align: center;
               @include width(16);
               @include height(16);
-              background-color:rgba(54,194,147,0.1);
+              background-color:  #36C293;
               @include borderRadios(2);
               @include fontSize(12);
               font-weight:400;
-              color:rgba(54,194,147,1);
+              color:white;
               @include lineHeight(16);
             }
             .txt2{
@@ -144,11 +151,11 @@ html,body{
               @include width(16);
               @include marginLeft(8);
               @include height(16);
-              background-color:rgba(240,92,81,0.1);
+             background-color: #F05C51;
               @include borderRadios(2);
               @include fontSize(12);
               font-weight:400;
-              color:rgba(240,92,81,1);
+              color:white;
               @include lineHeight(16);
             }
           }
@@ -322,6 +329,7 @@ html,body{
             @include marginTop(10);
           }
           .item-bus{
+            @include marginTop(15);
             background-color:rgba(245,245,245,1);
             @include borderRadios(4);
             @include width(343);

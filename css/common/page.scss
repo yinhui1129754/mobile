@@ -13,7 +13,7 @@ $header_ptop:20;
   .header-top{
     @include height(20);
     @include width($size);
-
+    display: none;
   }
   .header{
     @include height(44);
@@ -21,11 +21,11 @@ $header_ptop:20;
     position: relative;
     .back{
       position: absolute;
-      @include width(16);
+      @include width(30);
       @include height(16);
       @include backImg("back.png");
 
-      @include left(12);
+      @include left(5);
       @include top(14);
       background-size: auto 100%;
       background-repeat: no-repeat;
@@ -93,6 +93,7 @@ $header_ptop:20;
     display: inline-block;
     position: relative;
     @include top(14);
+    @include paddingRight(16);
     .item{
       display: inline-block;
       position: relative;
@@ -202,4 +203,7 @@ z-index: 1;
 }
 .layui-m-layercont{
   background-color: white;
+}
+.layui-m-layercont2{
+  background-color: transparent;
 }

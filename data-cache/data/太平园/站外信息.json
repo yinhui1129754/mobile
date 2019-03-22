@@ -1,0 +1,130 @@
+{
+	"stationName": "太平园",
+	"deviceInfo": [
+		{
+			"stationName": "太平园",
+			"gate": " A ",
+			"roads": "佳灵路辅路|佳灵路|中环路武阳大道段",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 0,
+			"elevator": 0,
+			"police": 0
+		},
+		{
+			"stationName": "太平园",
+			"gate": " B ",
+			"roads": "中环路武阳大道段|佳灵路辅路|佳灵路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 0,
+			"elevator": 0,
+			"police": 0
+		},
+		{
+			"stationName": "太平园",
+			"gate": " C ",
+			"roads": "中环路武阳大道段|佳灵路|佳灵路辅路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 0
+		},
+		{
+			"stationName": "太平园",
+			"gate": " D ",
+			"roads": "佳灵路|中环路武阳大道段|佳灵路辅路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 0
+		},
+		{
+			"stationName": "太平园",
+			"gate": " E ",
+			"roads": "佳灵路|中环路武阳大道段|佳灵路辅路",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 1,
+			"elevator": 0,
+			"police": 0
+		},
+		{
+			"stationName": "太平园",
+			"gate": " F ",
+			"roads": "中环路武阳大道段|佳灵路|永盛街",
+			"toilet": 1,
+			"hospital": 0,
+			"atm": 0,
+			"elevator": 0,
+			"police": 0
+		}
+	],
+	"busInfo": [
+		{
+			"stationName": "太平园",
+			"gate": " B ",
+			"busStationName": "武阳大道三段站(公交站)",
+			"busStationDistance": 284.0,
+			"busLine": "1路;84路;147路;249路;807路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " C ",
+			"busStationName": "核桃堰路南站(公交站)",
+			"busStationDistance": 195.0,
+			"busLine": "174路;207路;248路;251路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " E ",
+			"busStationName": "地铁太平园站(公交站)",
+			"busStationDistance": 186.0,
+			"busLine": "1路;10路;57路;84路;147路;174路;213路;248路;249路;251路;306路;335路;802路;848路;高峰快线G22路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " E ",
+			"busStationName": "核桃堰路北站(公交站)",
+			"busStationDistance": 404.0,
+			"busLine": "174路;207路;248路;251路;社区巴士1027路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " E ",
+			"busStationName": "盛世路东站(公交站)",
+			"busStationDistance": 368.0,
+			"busLine": "41路;222路;248路;251路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " E ",
+			"busStationName": "长益路川藏路口站(公交站)",
+			"busStationDistance": 424.0,
+			"busLine": "174路;207路;248路;249路;251路;社区巴士1027路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " F ",
+			"busStationName": "太平园东二路站(公交站)",
+			"busStationDistance": 446.0,
+			"busLine": "社区巴士1034路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " F ",
+			"busStationName": "武阳大道川藏路口站(公交站)",
+			"busStationDistance": 228.0,
+			"busLine": "84路;147路;222路"
+		},
+		{
+			"stationName": "太平园",
+			"gate": " F ",
+			"busStationName": "永盛路口站(公交站)",
+			"busStationDistance": 407.0,
+			"busLine": "社区巴士1034路"
+		}
+	]
+}

@@ -1,3 +1,6 @@
+layer.open({type: 2,success:function(e){
+        $(e).find(".layui-m-layercont").addClass("layui-m-layercont2")
+    }});
 $(function(){
     var lieche={
         "01":["韦家碾","科学城"],
@@ -23,6 +26,7 @@ $(function(){
             $(this.$el).css("display","none");
             mc.on("tap", function(ev) {
                 ev.srcEvent.stopPropagation();
+                ev.preventDefault();
                 utils.showSelect({
                     items:[{name:"我要建议",data:0},{name:"我要投述",data:1},{name:"我要表扬",data:2}],
                     tapCall:function(item,index){
@@ -62,6 +66,7 @@ $(function(){
                 type:"get",
                 url:"data-cache/all-station.json",
                 success:function(data){
+                    layer.closeAll();
                     if(!utils.GetRequest().code){
                         layer.open({
                             content: '请正确的进入该页面'
@@ -72,6 +77,7 @@ $(function(){
                         });
                         return;
                     }
+
                     for(var i = 0;i<data.length;i++){
                         if(!data[i].belongCode){data[i].belongCode=[]};
                         for(var q=0;q<data.length;q++){
@@ -87,6 +93,7 @@ $(function(){
 
                         }
                     }
+
                     THIS.lineData = utils.orderByAttr(data,"line_code");
                     THIS.allData = data;
 
@@ -94,9 +101,13 @@ $(function(){
                         return item.station_code ==utils.GetRequest().code;
                     });
                     if(!THIS.nowItem){
+
                         return 0;
+                    }else{
+
                     }
                     THIS.allLine=[THIS.nowItem.line_code].concat(THIS.nowItem.belongCode);
+
                     if(THIS.nowItem.line_code=="10"){
                         $.ajax({
                             type:"get",
@@ -272,7 +283,7 @@ $(function(){
                         },
                         slideChange: function(){
                             var ele =swiper.slides[THIS.$refs.swiper2.activeIndex];
-                            var h =ele.offsetHeight;
+                            var h =ele.outerHeight>=ele.offsetHeight?ele.outerHeight:ele.offsetHeight;
                             swiper.$wrapperEl.css({
                                 height:h+"px"
                             });
@@ -288,7 +299,7 @@ $(function(){
                 this.swiperProgress2(0);
                 //初始化高度
                 var ele =swiper.slides[THIS.$refs.swiper2.activeIndex];
-                var h =ele.offsetHeight;
+                var h =ele.outerHeight>=ele.offsetHeight?ele.outerHeight:ele.offsetHeight;
                 swiper.$wrapperEl.css({
                     height:h+"px"
                 });

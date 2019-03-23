@@ -214,14 +214,24 @@ html,body{
       }
       .content-info{
         .item{
-          @include paddingBottom(16);
+
           height: max-content;
 
           .img-box{
             @include marginTop(10);
             background-color: #CBCBED;
             @include img2();
+            @include minHeight($size/2);
             font-size: 0;
+            position: relative;
+
+            overflow: hidden;
+            .img{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              @include transform(translate(-50%,-50%));
+            }
           }
           .list-1{
             .item-list-1{
@@ -334,6 +344,7 @@ html,body{
             @include borderRadios(4);
             @include width(343);
             @include marginLeft(16);
+            @include marginBottom(16);
             @include paddingLeft(16);
             @include paddingRight(16);
             @include paddingTop(16);

@@ -10,8 +10,7 @@
     height: 5.3333333333vw;
     height: 0.5333333333rem;
     width: 100vw;
-    width: 10rem;
-    display: none; }
+    width: 10rem; }
   .page .header {
     height: 11.7333333333vw;
     height: 1.1733333333rem;
@@ -224,8 +223,8 @@
 .page .content {
   position: absolute;
   left: 0;
-  top: 25.6vw;
-  top: 2.56rem;
+  top: 30.9333333333vw;
+  top: 3.0933333333rem;
   bottom: 0;
   overflow: hidden;
   width: 100%; }

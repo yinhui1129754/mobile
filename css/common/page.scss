@@ -13,7 +13,6 @@ $header_ptop:20;
   .header-top{
     @include height(20);
     @include width($size);
-    display: none;
   }
   .header{
     @include height(44);

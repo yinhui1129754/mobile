@@ -1,4 +1,9 @@
+layer.open({type: 2,
+    success:function(e){
+        $(e).find(".layui-m-layercont").addClass("layui-m-layercont2")
+    }});
 $(function(){
+
     var v1= new Vue({
         el:document.getElementById("index"),
         mounted:function(){
@@ -20,6 +25,7 @@ $(function(){
                 type:"get",
                 url:"data-cache/all-station.json",
                 success:function(data){
+                    layer.closeAll();
                     for(var i = 0;i<data.length;i++){
                         if(!data[i].belongCode){data[i].belongCode=[]};
                         for(var q=0;q<data.length;q++){
